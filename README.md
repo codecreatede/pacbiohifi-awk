@@ -14,11 +14,8 @@ for i in $(cat test.cov | awk '{ print $3 }'); \
                 do if [[ $i -ge "${lengthselectionsort}" ]] then; \ 
                                         echo $i; fi; done | youplot histogram
 ```
-![image](https://github.com/sablokgaurav/awk_simulators_pacbiohifi_assembly/blob/main/plotimage.png)
+![image](https://github.com/codecreatede/pacbiohifi-awk/blob/main/plotimage.png)
 
-Gaurav \
-Academic Staff Member \
-Bioinformatics \
-Institute for Biochemistry and Biology \
+Gaurav Sablok \
 University of Potsdam \
 Potsdam,Germany
